@@ -60,8 +60,10 @@ var data = {
 
 
 
-fetch(data){
-     try(console.log(data))
-     try(JSON.stringify(data))
-     .catch(err=>(console.log(err)))
-}
+var div  = document.createElement("div")
+
+
+const image = document.createElement("img")
+
+
+

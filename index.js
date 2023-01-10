@@ -70,6 +70,9 @@ allData.map(function(data){
     /*image,name,price,strikedoffprice*/ 
 
     var div = document.createElement("div")
+    div.style.border = "2px solid black"
+
+    
     var image = document.createElement("img")
     image.setAttribute("src",data.ImageUrl)
  

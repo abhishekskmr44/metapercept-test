@@ -72,12 +72,12 @@ allData.map(function(data){
     var div = document.createElement("div")
     div.style.border = "2px solid black"
 
-    
+
     var image = document.createElement("img")
     image.setAttribute("src",data.ImageUrl)
  
  
-    //name
+    
 
 
  var name = document.createElement("p")

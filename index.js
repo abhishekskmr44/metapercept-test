@@ -94,7 +94,7 @@ price.textContent= data.ShortDesc
 
 
 
-    image.append(allData.image_url)
+    image.append(allData.ImageUrl)
 
     div.append(image,name,price)
 

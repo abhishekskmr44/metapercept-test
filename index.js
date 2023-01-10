@@ -66,15 +66,12 @@ var allData =  [
 
 allData.map(function(data){
 
-    // event.preventDefault()
-    /*image,name,price,strikedoffprice*/ 
-
     var div = document.createElement("div")
     div.style.border = "2px solid black"
 
 
     var image = document.createElement("img")
-    image.setAttribute("src",data.ImageUrl)
+    image.setAttribute("src",data.ImageUrl[0])
  
  
     
@@ -94,7 +91,7 @@ price.textContent= data.ShortDesc
 
 
 
-    image.append(allData.ImageUrl)
+    // image.append(allData.ImageUrl)
 
     div.append(image,name,price)
 

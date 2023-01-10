@@ -63,14 +63,7 @@
     margin-left: 11%;
 }
 
-.boxes{
-    border: 2px solid black;
-    height: 1000px;
-    width: auto; 
-    display: grid;
-    grid-template-columns:repeat(3,1fr);
-    /* grid-template-rows: repeat(3,1fr);; */
-}
+
 
 .box{
     border: 2px solid black;
@@ -102,4 +95,5 @@
 #boxes{
     display: grid;
     grid-template-columns: repeat(3,1fr);
+    border: 2px solid black;
 }

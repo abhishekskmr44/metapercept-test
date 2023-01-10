@@ -81,7 +81,7 @@ allData.map(function(data){
  name.textContent = data.Name
 
 
-var price = document.createElement("h1")
+var price = document.createElement("h3")
 price.textContent= data.ShortDesc
 
 

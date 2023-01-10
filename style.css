@@ -98,11 +98,8 @@
     margin-top: 15px;
     
 }
-/* @media screen(300px & 600px) {
-    .boxes{
-        
-        display: grid;
-        grid-template-columns:repeat(1,1fr);
-        /* grid-template-rows: repeat(3,1fr);; */
-    }
-} */
+
+#boxes{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
